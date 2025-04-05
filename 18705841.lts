@@ -1,0 +1,89 @@
+// FSP Process Model to Ticket Machine, Passengers and Technicians.
+// Shanmugaratnam Mohanaranjan || w1870584 || 18705841.
+
+// Declaring Constants
+//Maximum capacity of sheets and toner in a printer.
+// Maximum number of paper on a printer.
+const MAXIMUM_NUMBER_OF_SHEETS = 3 
+// Maximum number of toner on a printer.
+const MAXIMUM_NUMBER_OF_TONER = 3 
+
+//  Number of sheets on a printer.
+const NUMBER_OF_SHEETS = 0 
+//  Number of toner on a printer.
+const NUMBER_OF_TONER = 0 
+
+// Maximum number of sheets on a printer.
+const MINIMUM_OF_AMOUNT = 1 
+// Maximum number of sheets on a printer.
+const MAXIMUM_OF_AMOUNT = 3 
+
+// Declaring Ranges
+// Range representing the number of sheets in the printer.
+range SHEETS_OF_RANGE = NUMBER_OF_SHEETS .. MAXIMUM_NUMBER_OF_SHEETS 
+// Range representing the number of toner cartridges in the printer.
+range RANGE_OF_TONER = NUMBER_OF_TONER .. MAXIMUM_NUMBER_OF_TONER 
+// Range representing the number of prints.
+range PRINT_AMOUNT_RANGE = MINIMUM_OF_AMOUNT .. MAXIMUM_OF_AMOUNT
+
+// Relevant Sets
+// Set of actions including acquiring prints, printing, acquiring, releasing, and passing counts for sheets and toner.
+set PRINT_ACTIONS = {acquirePrint[SHEETS_OF_RANGE][RANGE_OF_TONER], print, acquireRefill, refill, release, passPaperCount[SHEETS_OF_RANGE], passTonerCount[RANGE_OF_TONER]}
+// Set of users including passengers and technicians.
+set USERS = {passenger1, passenger2, passenger3, passenger4, toner_technician, paper_technician}
+
+// Ticket Machine Process
+// Represents the printer process. It can acquire prints, print, acquire/refill, release, and pass counts for sheets and toner. 
+// It has conditions to check if there's enough paper or toner, and actions accordingly. 
+PRINTER(COUNT_OF_PAPER = MAXIMUM_NUMBER_OF_SHEETS, TONER_COUNT = MAXIMUM_NUMBER_OF_TONER) =
+    PRINTER[COUNT_OF_PAPER][TONER_COUNT],
+    PRINTER[paper: NUMBER_OF_SHEETS..COUNT_OF_PAPER][toner: NUMBER_OF_TONER..TONER_COUNT] =
+		// Condition to check the paper and toner
+        if(paper == NUMBER_OF_SHEETS || toner == NUMBER_OF_TONER) 
+        then(acquireRefill -> refill -> release -> PRINTER[MAXIMUM_NUMBER_OF_SHEETS][toner] 
+        | acquireRefill -> refill -> release -> PRINTER[paper][MAXIMUM_NUMBER_OF_TONER])
+        else(acquirePrint[paper][toner] -> print -> release -> passPaperCount[paper - 1] -> passTonerCount[toner - 1] -> PRINTER[paper - 1][toner - 1]).
+
+// Paper Technician Process
+// Represents the paper technician process. 
+// It can pass paper counts and either initiate a refill process for paper or wait. 
+// It includes common print actions.
+PAPER_TECHNICIAN =
+    (passPaperCount[paper: SHEETS_OF_RANGE] -> if(paper == NUMBER_OF_SHEETS) 
+	// Refill Process for Paper
+    then(acquireRefill -> refill -> release -> PAPER_TECHNICIAN)  
+    else(wait -> PAPER_TECHNICIAN)) + PRINT_ACTIONS.
+
+// Toner Technician Process
+// Represents the toner technician process. 
+// It can pass toner counts and either initiate a refill process for toner or wait. 
+// It includes common print actions.
+TONER_TECHNICIAN =
+    (passTonerCount[toner: RANGE_OF_TONER] -> if(toner == NUMBER_OF_TONER) 
+	// Refill Process for Toner
+    then(acquireRefill -> refill -> release -> TONER_TECHNICIAN) 
+    else(wait -> TONER_TECHNICIAN)) + PRINT_ACTIONS.
+
+// Passenger Process
+// Represents the passenger process. 
+// It can pass print demands and either initiate a print process or wait. 
+// It includes common print actions.
+PASSENGER(TICKETS = 1) =
+    PASSENGER[TICKETS],
+    PASSENGER[demand: PRINT_AMOUNT_RANGE] =
+        (acquirePrint[paper: SHEETS_OF_RANGE][toner: RANGE_OF_TONER] -> if(toner >= demand && paper >= demand) 
+        then(print -> release -> PASSENGER) 
+        else(wait -> PASSENGER)) + PRINT_ACTIONS.
+
+// Printing System Process
+// Represents the overall printing system with mutual exclusive control of the ticket machine. 
+// It involves multiple passengers, paper/toner technicians, and printer processes.
+// Mutual exclusive control of the Ticket Machine 
+|| PRINTING_SYSTEM = ( 
+		passenger1 : PASSENGER(2)
+ 	|| 	passenger2 : PASSENGER(1) 
+	|| 	passenger3 : PASSENGER(3) 
+	|| 	passenger4 : PASSENGER(1) 
+	|| 	paper_technician : PAPER_TECHNICIAN 
+	||	toner_technician : TONER_TECHNICIAN 
+ 	|| 	USERS :: PRINTER).

@@ -1,0 +1,1079 @@
+[2024-01-12 01:28:46.687]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2024-01-12 01:28:46.720]  [PRINTING SYSTEM]  [INFO]   Passenger Thread Group Created.
+[2024-01-12 01:28:46.720]  [PRINTING SYSTEM]  [INFO]   Technician Thread Group Created.
+[2024-01-12 01:28:46.721]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2024-01-12 01:28:46.722]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERTharindu.
+[2024-01-12 01:28:46.722]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERSudesh.
+[2024-01-12 01:28:46.722]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERPasan.
+[2024-01-12 01:28:46.722]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERAdithya.
+[2024-01-12 01:28:46.722]  [PRINTING SYSTEM]  [INFO]  Initialised PAPERTECHNICIAN.
+[2024-01-12 01:28:46.723]  [PRINTING SYSTEM]  [INFO]  Initialised TONERTECHNICIAN.
+[2024-01-12 01:28:46.723]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2024-01-12 01:28:46.725]  [PRINTING SYSTEM]  [INFO]  Started Tharindu PASSENGER Thread.
+[2024-01-12 01:28:46.725]  [PRINTING SYSTEM]  [INFO]  Started Sudesh PASSENGER Thread.
+[2024-01-12 01:28:46.726]  [PRINTING SYSTEM]  [INFO]  Started Pasan PASSENGER Thread.
+[2024-01-12 01:28:46.727]  [PRINTING SYSTEM]  [INFO]  Started Adithya PASSENGER Thread.
+[2024-01-12 01:28:46.728]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:46.729]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2024-01-12 01:28:46.729]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2024-01-12 01:28:46.730]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:46.730]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:28:46.731]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:28:46.731]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 1].
+[2024-01-12 01:28:46.731]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 1].
+[2024-01-12 01:28:46.732]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:28:46.732]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 14].
+[2024-01-12 01:28:46.732]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:28:46.732]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 14].
+[2024-01-12 01:28:46.733]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:28:46.733]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:46.733]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:28:46.733]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:46.734]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:28:46.734]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:28:46.734]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=487, printedTickets=1}.
+[2024-01-12 01:28:46.734]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=487, printedTickets=1}.
+[2024-01-12 01:28:46.734]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=487, printedTickets=1}.
+[2024-01-12 01:28:46.734]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 1].
+[2024-01-12 01:28:46.735]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:28:46.735]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:28:46.735]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:28:46.735]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:28:46.735]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=484, printedTickets=3}.
+[2024-01-12 01:28:46.736]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=484, printedTickets=3}.
+[2024-01-12 01:28:46.736]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=484, printedTickets=3}.
+[2024-01-12 01:28:46.736]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 14].
+[2024-01-12 01:28:46.736]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=470, printedTickets=4}.
+[2024-01-12 01:28:46.736]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=470, printedTickets=4}.
+[2024-01-12 01:28:46.736]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=470, printedTickets=4}.
+[2024-01-12 01:28:46.737]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:46.737]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=470, printedTickets=4}.
+[2024-01-12 01:28:46.737]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.003]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:28:47.003]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:28:47.003]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=470, printedTickets=4}.
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=5}.
+[2024-01-12 01:28:47.004]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=5}.
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=5}.
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=5}.
+[2024-01-12 01:28:47.004]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.039]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:28:47.039]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:28:47.039]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=5}.
+[2024-01-12 01:28:47.039]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:28:47.040]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=457, printedTickets=6}.
+[2024-01-12 01:28:47.040]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=457, printedTickets=6}.
+[2024-01-12 01:28:47.040]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=457, printedTickets=6}.
+[2024-01-12 01:28:47.040]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.040]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=457, printedTickets=6}.
+[2024-01-12 01:28:47.040]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.168]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 1].
+[2024-01-12 01:28:47.168]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 1].
+[2024-01-12 01:28:47.169]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=457, printedTickets=6}.
+[2024-01-12 01:28:47.169]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 1].
+[2024-01-12 01:28:47.169]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=456, printedTickets=7}.
+[2024-01-12 01:28:47.169]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=456, printedTickets=7}.
+[2024-01-12 01:28:47.170]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=456, printedTickets=7}.
+[2024-01-12 01:28:47.170]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.170]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=456, printedTickets=7}.
+[2024-01-12 01:28:47.170]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.236]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 17].
+[2024-01-12 01:28:47.236]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 17].
+[2024-01-12 01:28:47.237]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=456, printedTickets=7}.
+[2024-01-12 01:28:47.237]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 17].
+[2024-01-12 01:28:47.238]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=189, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.238]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=189, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.238]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:28:47.239]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.239]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.239]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.239]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.338]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 9].
+[2024-01-12 01:28:47.339]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 9].
+[2024-01-12 01:28:47.340]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=439, printedTickets=8}.
+[2024-01-12 01:28:47.340]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 9].
+[2024-01-12 01:28:47.340]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=9}.
+[2024-01-12 01:28:47.341]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=9}.
+[2024-01-12 01:28:47.341]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=9}.
+[2024-01-12 01:28:47.341]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.598]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:28:47.599]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:28:47.600]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=9}.
+[2024-01-12 01:28:47.600]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:28:47.600]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:28:47.600]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:28:47.601]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:28:47.601]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.673]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:47.674]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:28:47.674]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.689]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 4].
+[2024-01-12 01:28:47.690]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 4].
+[2024-01-12 01:28:47.690]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:28:47.690]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 4].
+[2024-01-12 01:28:47.690]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=407, printedTickets=11}.
+[2024-01-12 01:28:47.690]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=407, printedTickets=11}.
+[2024-01-12 01:28:47.691]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=407, printedTickets=11}.
+[2024-01-12 01:28:47.691]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.691]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=407, printedTickets=11}.
+[2024-01-12 01:28:47.691]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.787]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 17].
+[2024-01-12 01:28:47.787]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 17].
+[2024-01-12 01:28:47.788]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=207, toner_level=407, printedTickets=11}.
+[2024-01-12 01:28:47.789]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 17].
+[2024-01-12 01:28:47.789]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.789]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.790]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.790]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.790]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:28:47.791]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.791]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.791]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.792]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.888]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 1].
+[2024-01-12 01:28:47.888]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 1].
+[2024-01-12 01:28:47.889]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=12}.
+[2024-01-12 01:28:47.889]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 1].
+[2024-01-12 01:28:47.889]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=389, printedTickets=13}.
+[2024-01-12 01:28:47.889]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=389, printedTickets=13}.
+[2024-01-12 01:28:47.889]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=389, printedTickets=13}.
+[2024-01-12 01:28:47.890]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.919]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:28:47.920]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:28:47.920]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=239, toner_level=389, printedTickets=13}.
+[2024-01-12 01:28:47.920]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:28:47.920]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=14}.
+[2024-01-12 01:28:47.920]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=14}.
+[2024-01-12 01:28:47.921]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=14}.
+[2024-01-12 01:28:47.921]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:47.974]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:47.974]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=14}.
+[2024-01-12 01:28:47.975]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.154]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:48.154]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:48.155]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=14}.
+[2024-01-12 01:28:48.155]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:48.155]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=373, printedTickets=15}.
+[2024-01-12 01:28:48.155]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=373, printedTickets=15}.
+[2024-01-12 01:28:48.155]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=373, printedTickets=15}.
+[2024-01-12 01:28:48.156]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.156]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=373, printedTickets=15}.
+[2024-01-12 01:28:48.156]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.157]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:28:48.157]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:28:48.157]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=373, printedTickets=15}.
+[2024-01-12 01:28:48.157]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:28:48.157]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=16}.
+[2024-01-12 01:28:48.158]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=16}.
+[2024-01-12 01:28:48.158]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=16}.
+[2024-01-12 01:28:48.158]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.158]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=16}.
+[2024-01-12 01:28:48.158]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.266]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 2].
+[2024-01-12 01:28:48.266]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 2].
+[2024-01-12 01:28:48.267]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=16}.
+[2024-01-12 01:28:48.268]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 2].
+[2024-01-12 01:28:48.268]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=17}.
+[2024-01-12 01:28:48.268]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=17}.
+[2024-01-12 01:28:48.268]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=17}.
+[2024-01-12 01:28:48.268]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.268]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=17}.
+[2024-01-12 01:28:48.269]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.421]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:28:48.421]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:28:48.421]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=17}.
+[2024-01-12 01:28:48.421]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:28:48.421]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=356, printedTickets=18}.
+[2024-01-12 01:28:48.421]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=356, printedTickets=18}.
+[2024-01-12 01:28:48.422]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=356, printedTickets=18}.
+[2024-01-12 01:28:48.422]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:48.422]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=356, printedTickets=18}.
+[2024-01-12 01:28:48.422]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:49.133]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Tharindu.
+[2024-01-12 01:28:49.134]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Sudesh.
+[2024-01-12 01:28:49.135]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Pasan.
+[2024-01-12 01:28:49.371]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 18].
+[2024-01-12 01:28:49.374]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 18].
+[2024-01-12 01:28:49.375]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=356, printedTickets=18}.
+[2024-01-12 01:28:49.375]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 18].
+[2024-01-12 01:28:49.376]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.376]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.377]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.377]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:49.377]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:28:49.378]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.378]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.378]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:49.379]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:50.260]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:50.263]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:50.264]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=19}.
+[2024-01-12 01:28:50.264]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 7].
+[2024-01-12 01:28:50.264]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:50.265]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:50.266]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:50.267]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:28:51.104]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Adithya.
+[2024-01-12 01:28:51.107]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Malith.
+[2024-01-12 01:28:55.273]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:28:55.276]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:55.357]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:55.359]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:28:55.359]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:56.057]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:28:56.058]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:28:56.059]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:28:56.811]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Adeesha.
+[2024-01-12 01:28:56.816]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of print printed : 169, Final Status of Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=331, printedTickets=20}.
+[2024-01-12 01:30:06.891]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2024-01-12 01:30:06.924]  [PRINTING SYSTEM]  [INFO]   Passenger Thread Group Created.
+[2024-01-12 01:30:06.924]  [PRINTING SYSTEM]  [INFO]   Technician Thread Group Created.
+[2024-01-12 01:30:06.925]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2024-01-12 01:30:06.925]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERTharindu.
+[2024-01-12 01:30:06.926]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERSudesh.
+[2024-01-12 01:30:06.926]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERPasan.
+[2024-01-12 01:30:06.926]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERAdithya.
+[2024-01-12 01:30:06.926]  [PRINTING SYSTEM]  [INFO]  Initialised PAPERTECHNICIAN.
+[2024-01-12 01:30:06.926]  [PRINTING SYSTEM]  [INFO]  Initialised TONERTECHNICIAN.
+[2024-01-12 01:30:06.927]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2024-01-12 01:30:06.929]  [PRINTING SYSTEM]  [INFO]  Started Tharindu PASSENGER Thread.
+[2024-01-12 01:30:06.930]  [PRINTING SYSTEM]  [INFO]  Started Sudesh PASSENGER Thread.
+[2024-01-12 01:30:06.931]  [PRINTING SYSTEM]  [INFO]  Started Pasan PASSENGER Thread.
+[2024-01-12 01:30:06.932]  [PRINTING SYSTEM]  [INFO]  Started Adithya PASSENGER Thread.
+[2024-01-12 01:30:06.933]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2024-01-12 01:30:06.933]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2024-01-12 01:30:06.933]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:06.934]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:06.934]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 01:30:06.935]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 9].
+[2024-01-12 01:30:06.935]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 5].
+[2024-01-12 01:30:06.935]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 5].
+[2024-01-12 01:30:06.935]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:30:06.936]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 9].
+[2024-01-12 01:30:06.936]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 01:30:06.936]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:30:06.937]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:30:06.938]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:06.938]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:30:06.938]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:06.938]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:30:06.939]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 5].
+[2024-01-12 01:30:06.939]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=245, toner_level=495, printedTickets=1}.
+[2024-01-12 01:30:06.939]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=245, toner_level=495, printedTickets=1}.
+[2024-01-12 01:30:06.939]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=245, toner_level=495, printedTickets=1}.
+[2024-01-12 01:30:06.939]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 9].
+[2024-01-12 01:30:06.940]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:30:06.940]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:30:06.940]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=486, printedTickets=2}.
+[2024-01-12 01:30:06.940]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 01:30:06.940]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=468, printedTickets=3}.
+[2024-01-12 01:30:06.941]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=468, printedTickets=3}.
+[2024-01-12 01:30:06.941]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=468, printedTickets=3}.
+[2024-01-12 01:30:06.941]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 13].
+[2024-01-12 01:30:06.941]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=455, printedTickets=4}.
+[2024-01-12 01:30:06.941]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=455, printedTickets=4}.
+[2024-01-12 01:30:06.941]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=455, printedTickets=4}.
+[2024-01-12 01:30:06.942]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:06.942]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=455, printedTickets=4}.
+[2024-01-12 01:30:06.942]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.032]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 2].
+[2024-01-12 01:30:07.032]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 2].
+[2024-01-12 01:30:07.033]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=455, printedTickets=4}.
+[2024-01-12 01:30:07.033]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 2].
+[2024-01-12 01:30:07.033]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=453, printedTickets=5}.
+[2024-01-12 01:30:07.033]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=453, printedTickets=5}.
+[2024-01-12 01:30:07.033]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=453, printedTickets=5}.
+[2024-01-12 01:30:07.034]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.034]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=453, printedTickets=5}.
+[2024-01-12 01:30:07.034]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.088]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:07.088]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:07.089]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=453, printedTickets=5}.
+[2024-01-12 01:30:07.089]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:07.089]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=184, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.089]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=184, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.089]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:30:07.090]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.090]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.090]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.090]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.258]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:30:07.258]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:30:07.259]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=234, toner_level=434, printedTickets=6}.
+[2024-01-12 01:30:07.259]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 10].
+[2024-01-12 01:30:07.259]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=424, printedTickets=7}.
+[2024-01-12 01:30:07.259]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=424, printedTickets=7}.
+[2024-01-12 01:30:07.259]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=424, printedTickets=7}.
+[2024-01-12 01:30:07.259]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.514]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 16].
+[2024-01-12 01:30:07.515]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 16].
+[2024-01-12 01:30:07.516]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=424, printedTickets=7}.
+[2024-01-12 01:30:07.516]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 16].
+[2024-01-12 01:30:07.516]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=208, toner_level=408, printedTickets=8}.
+[2024-01-12 01:30:07.517]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=208, toner_level=408, printedTickets=8}.
+[2024-01-12 01:30:07.517]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=208, toner_level=408, printedTickets=8}.
+[2024-01-12 01:30:07.517]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.590]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:07.590]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=208, toner_level=408, printedTickets=8}.
+[2024-01-12 01:30:07.591]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.624]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:07.625]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:07.625]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=208, toner_level=408, printedTickets=8}.
+[2024-01-12 01:30:07.626]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:07.626]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.626]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.626]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.627]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.627]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:30:07.627]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.627]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.628]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.628]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.729]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:30:07.729]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:30:07.730]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=399, printedTickets=9}.
+[2024-01-12 01:30:07.730]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:30:07.731]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=393, printedTickets=10}.
+[2024-01-12 01:30:07.731]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=393, printedTickets=10}.
+[2024-01-12 01:30:07.731]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=393, printedTickets=10}.
+[2024-01-12 01:30:07.731]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.783]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:30:07.784]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 11].
+[2024-01-12 01:30:07.784]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 11].
+[2024-01-12 01:30:07.784]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:30:07.785]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=393, printedTickets=10}.
+[2024-01-12 01:30:07.785]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 11].
+[2024-01-12 01:30:07.785]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=382, printedTickets=11}.
+[2024-01-12 01:30:07.785]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=382, printedTickets=11}.
+[2024-01-12 01:30:07.786]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=382, printedTickets=11}.
+[2024-01-12 01:30:07.786]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:30:07.786]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=379, printedTickets=12}.
+[2024-01-12 01:30:07.786]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=379, printedTickets=12}.
+[2024-01-12 01:30:07.787]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=379, printedTickets=12}.
+[2024-01-12 01:30:07.787]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:07.832]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 15].
+[2024-01-12 01:30:07.833]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 15].
+[2024-01-12 01:30:07.833]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=379, printedTickets=12}.
+[2024-01-12 01:30:07.833]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 15].
+[2024-01-12 01:30:07.833]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=13}.
+[2024-01-12 01:30:07.834]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=13}.
+[2024-01-12 01:30:07.834]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=13}.
+[2024-01-12 01:30:07.834]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.072]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 2].
+[2024-01-12 01:30:08.073]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 2].
+[2024-01-12 01:30:08.073]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=13}.
+[2024-01-12 01:30:08.074]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 2].
+[2024-01-12 01:30:08.074]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=362, printedTickets=14}.
+[2024-01-12 01:30:08.074]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=362, printedTickets=14}.
+[2024-01-12 01:30:08.074]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=362, printedTickets=14}.
+[2024-01-12 01:30:08.075]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.120]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:08.120]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:08.121]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=362, printedTickets=14}.
+[2024-01-12 01:30:08.121]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 19].
+[2024-01-12 01:30:08.121]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=193, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.121]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=193, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.121]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=193, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.122]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.391]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:08.392]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:30:08.392]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.393]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.393]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.393]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.595]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 1].
+[2024-01-12 01:30:08.596]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 1].
+[2024-01-12 01:30:08.596]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=243, toner_level=343, printedTickets=15}.
+[2024-01-12 01:30:08.597]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 1].
+[2024-01-12 01:30:08.597]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=342, printedTickets=16}.
+[2024-01-12 01:30:08.597]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=342, printedTickets=16}.
+[2024-01-12 01:30:08.597]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=342, printedTickets=16}.
+[2024-01-12 01:30:08.597]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.742]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:30:08.742]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:30:08.743]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=342, printedTickets=16}.
+[2024-01-12 01:30:08.743]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 4].
+[2024-01-12 01:30:08.743]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=17}.
+[2024-01-12 01:30:08.743]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=17}.
+[2024-01-12 01:30:08.743]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=17}.
+[2024-01-12 01:30:08.743]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.744]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:30:08.744]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:30:08.744]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=338, printedTickets=17}.
+[2024-01-12 01:30:08.744]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:30:08.744]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=332, printedTickets=18}.
+[2024-01-12 01:30:08.744]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=332, printedTickets=18}.
+[2024-01-12 01:30:08.744]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=332, printedTickets=18}.
+[2024-01-12 01:30:08.744]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.863]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Tharindu.
+[2024-01-12 01:30:08.894]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:08.895]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:08.895]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=232, toner_level=332, printedTickets=18}.
+[2024-01-12 01:30:08.895]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:30:08.895]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=19}.
+[2024-01-12 01:30:08.895]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=19}.
+[2024-01-12 01:30:08.896]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=19}.
+[2024-01-12 01:30:08.896]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:08.959]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 3].
+[2024-01-12 01:30:08.960]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 3].
+[2024-01-12 01:30:08.960]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=19}.
+[2024-01-12 01:30:08.961]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 3].
+[2024-01-12 01:30:08.961]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:08.961]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:08.961]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:08.962]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:30:09.400]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Sudesh.
+[2024-01-12 01:30:09.401]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Pasan.
+[2024-01-12 01:30:09.402]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Adithya.
+[2024-01-12 01:30:09.402]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Malith.
+[2024-01-12 01:30:13.966]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:30:13.968]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:14.508]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:14.509]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:30:14.510]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:14.983]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:30:14.984]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:30:14.984]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:30:15.343]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Adeesha.
+[2024-01-12 01:30:15.349]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of print printed : 180, Final Status of Printer{printerID='PrinterMachine 1120J', paper_level=220, toner_level=320, printedTickets=20}.
+[2024-01-12 01:33:00.871]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2024-01-12 01:33:00.903]  [PRINTING SYSTEM]  [INFO]   Passenger Thread Group Created.
+[2024-01-12 01:33:00.903]  [PRINTING SYSTEM]  [INFO]   Technician Thread Group Created.
+[2024-01-12 01:33:00.904]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2024-01-12 01:33:00.904]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERTharindu.
+[2024-01-12 01:33:00.904]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERSudesh.
+[2024-01-12 01:33:00.905]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERPasan.
+[2024-01-12 01:33:00.905]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERAdithya.
+[2024-01-12 01:33:00.905]  [PRINTING SYSTEM]  [INFO]  Initialised PAPERTECHNICIAN.
+[2024-01-12 01:33:00.905]  [PRINTING SYSTEM]  [INFO]  Initialised TONERTECHNICIAN.
+[2024-01-12 01:33:00.905]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2024-01-12 01:33:00.907]  [PRINTING SYSTEM]  [INFO]  Started Tharindu PASSENGER Thread.
+[2024-01-12 01:33:00.908]  [PRINTING SYSTEM]  [INFO]  Started Sudesh PASSENGER Thread.
+[2024-01-12 01:33:00.908]  [PRINTING SYSTEM]  [INFO]  Started Pasan PASSENGER Thread.
+[2024-01-12 01:33:00.909]  [PRINTING SYSTEM]  [INFO]  Started Adithya PASSENGER Thread.
+[2024-01-12 01:33:00.910]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2024-01-12 01:33:00.911]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:00.911]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2024-01-12 01:33:00.912]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:00.913]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 15].
+[2024-01-12 01:33:00.913]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 15].
+[2024-01-12 01:33:00.913]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.914]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.914]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.914]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 16].
+[2024-01-12 01:33:00.915]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.915]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 16].
+[2024-01-12 01:33:00.916]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:33:00.916]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:00.916]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:33:00.916]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:00.917]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 01:33:00.917]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 15].
+[2024-01-12 01:33:00.917]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=235, toner_level=485, printedTickets=1}.
+[2024-01-12 01:33:00.918]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=235, toner_level=485, printedTickets=1}.
+[2024-01-12 01:33:00.918]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=235, toner_level=485, printedTickets=1}.
+[2024-01-12 01:33:00.918]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.918]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=233, toner_level=483, printedTickets=2}.
+[2024-01-12 01:33:00.918]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=233, toner_level=483, printedTickets=2}.
+[2024-01-12 01:33:00.919]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=233, toner_level=483, printedTickets=2}.
+[2024-01-12 01:33:00.919]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 2].
+[2024-01-12 01:33:00.919]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=481, printedTickets=3}.
+[2024-01-12 01:33:00.919]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=481, printedTickets=3}.
+[2024-01-12 01:33:00.919]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=231, toner_level=481, printedTickets=3}.
+[2024-01-12 01:33:00.919]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 16].
+[2024-01-12 01:33:00.920]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=465, printedTickets=4}.
+[2024-01-12 01:33:00.920]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=465, printedTickets=4}.
+[2024-01-12 01:33:00.920]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=465, printedTickets=4}.
+[2024-01-12 01:33:00.920]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:00.921]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=465, printedTickets=4}.
+[2024-01-12 01:33:00.921]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.234]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 18].
+[2024-01-12 01:33:01.234]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 18].
+[2024-01-12 01:33:01.235]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=465, printedTickets=4}.
+[2024-01-12 01:33:01.235]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 18].
+[2024-01-12 01:33:01.235]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.235]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.235]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:33:01.236]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.236]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.236]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.236]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.266]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:33:01.266]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:33:01.266]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=5}.
+[2024-01-12 01:33:01.266]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 3].
+[2024-01-12 01:33:01.267]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=244, toner_level=444, printedTickets=6}.
+[2024-01-12 01:33:01.267]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=244, toner_level=444, printedTickets=6}.
+[2024-01-12 01:33:01.267]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=244, toner_level=444, printedTickets=6}.
+[2024-01-12 01:33:01.267]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.273]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:33:01.274]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:33:01.274]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=244, toner_level=444, printedTickets=6}.
+[2024-01-12 01:33:01.274]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 01:33:01.274]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=438, printedTickets=7}.
+[2024-01-12 01:33:01.274]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=438, printedTickets=7}.
+[2024-01-12 01:33:01.274]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=438, printedTickets=7}.
+[2024-01-12 01:33:01.274]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.334]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:01.334]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=438, printedTickets=7}.
+[2024-01-12 01:33:01.335]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.446]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 8].
+[2024-01-12 01:33:01.447]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 8].
+[2024-01-12 01:33:01.448]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=238, toner_level=438, printedTickets=7}.
+[2024-01-12 01:33:01.448]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 8].
+[2024-01-12 01:33:01.448]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=8}.
+[2024-01-12 01:33:01.449]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=8}.
+[2024-01-12 01:33:01.449]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=8}.
+[2024-01-12 01:33:01.449]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.450]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=8}.
+[2024-01-12 01:33:01.450]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.571]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 8].
+[2024-01-12 01:33:01.572]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 8].
+[2024-01-12 01:33:01.572]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=430, printedTickets=8}.
+[2024-01-12 01:33:01.572]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 8].
+[2024-01-12 01:33:01.573]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=222, toner_level=422, printedTickets=9}.
+[2024-01-12 01:33:01.573]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=222, toner_level=422, printedTickets=9}.
+[2024-01-12 01:33:01.573]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=222, toner_level=422, printedTickets=9}.
+[2024-01-12 01:33:01.574]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.574]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=222, toner_level=422, printedTickets=9}.
+[2024-01-12 01:33:01.574]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.779]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:33:01.780]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:33:01.780]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=222, toner_level=422, printedTickets=9}.
+[2024-01-12 01:33:01.781]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 11].
+[2024-01-12 01:33:01.781]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:33:01.781]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:33:01.782]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:33:01.782]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.782]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:33:01.782]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.862]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 13].
+[2024-01-12 01:33:01.863]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 13].
+[2024-01-12 01:33:01.863]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=211, toner_level=411, printedTickets=10}.
+[2024-01-12 01:33:01.863]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 13].
+[2024-01-12 01:33:01.864]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.864]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 11].
+[2024-01-12 01:33:01.864]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 11].
+[2024-01-12 01:33:01.864]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.865]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.865]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.865]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:33:01.865]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.866]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.866]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=11}.
+[2024-01-12 01:33:01.866]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 11].
+[2024-01-12 01:33:01.866]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=387, printedTickets=12}.
+[2024-01-12 01:33:01.866]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=387, printedTickets=12}.
+[2024-01-12 01:33:01.867]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=387, printedTickets=12}.
+[2024-01-12 01:33:01.867]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.961]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 7].
+[2024-01-12 01:33:01.962]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 7].
+[2024-01-12 01:33:01.963]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=237, toner_level=387, printedTickets=12}.
+[2024-01-12 01:33:01.963]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 7].
+[2024-01-12 01:33:01.963]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=13}.
+[2024-01-12 01:33:01.964]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=13}.
+[2024-01-12 01:33:01.964]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=13}.
+[2024-01-12 01:33:01.964]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:01.979]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:01.979]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:01.979]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=230, toner_level=380, printedTickets=13}.
+[2024-01-12 01:33:01.979]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:01.979]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=14}.
+[2024-01-12 01:33:01.980]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=14}.
+[2024-01-12 01:33:01.980]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=14}.
+[2024-01-12 01:33:01.980]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:02.227]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 1].
+[2024-01-12 01:33:02.227]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 1].
+[2024-01-12 01:33:02.228]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=14}.
+[2024-01-12 01:33:02.228]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 1].
+[2024-01-12 01:33:02.228]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=15}.
+[2024-01-12 01:33:02.229]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=15}.
+[2024-01-12 01:33:02.229]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=15}.
+[2024-01-12 01:33:02.230]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:02.398]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:02.399]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:02.400]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=214, toner_level=364, printedTickets=15}.
+[2024-01-12 01:33:02.400]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 15].
+[2024-01-12 01:33:02.400]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.401]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.401]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.401]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:02.619]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:02.620]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 01:33:02.620]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.621]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.621]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.621]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:02.739]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:33:02.741]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:33:02.742]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=249, toner_level=349, printedTickets=16}.
+[2024-01-12 01:33:02.742]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 9].
+[2024-01-12 01:33:02.742]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=340, printedTickets=17}.
+[2024-01-12 01:33:02.743]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=340, printedTickets=17}.
+[2024-01-12 01:33:02.744]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=340, printedTickets=17}.
+[2024-01-12 01:33:02.744]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:03.225]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 16].
+[2024-01-12 01:33:03.227]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 16].
+[2024-01-12 01:33:03.228]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=340, printedTickets=17}.
+[2024-01-12 01:33:03.229]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 16].
+[2024-01-12 01:33:03.229]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=324, printedTickets=18}.
+[2024-01-12 01:33:03.229]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=324, printedTickets=18}.
+[2024-01-12 01:33:03.232]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=324, printedTickets=18}.
+[2024-01-12 01:33:03.232]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:03.458]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 12].
+[2024-01-12 01:33:03.459]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 12].
+[2024-01-12 01:33:03.459]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=324, printedTickets=18}.
+[2024-01-12 01:33:03.460]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 12].
+[2024-01-12 01:33:03.460]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=312, printedTickets=19}.
+[2024-01-12 01:33:03.460]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=312, printedTickets=19}.
+[2024-01-12 01:33:03.461]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=312, printedTickets=19}.
+[2024-01-12 01:33:03.461]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:03.707]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Tharindu.
+[2024-01-12 01:33:04.015]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:33:04.017]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:33:04.018]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=212, toner_level=312, printedTickets=19}.
+[2024-01-12 01:33:04.018]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 6].
+[2024-01-12 01:33:04.018]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:04.019]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:04.019]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:04.019]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 01:33:04.225]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Sudesh.
+[2024-01-12 01:33:04.226]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Pasan.
+[2024-01-12 01:33:04.227]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Adithya.
+[2024-01-12 01:33:04.227]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Malith.
+[2024-01-12 01:33:09.022]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:33:09.023]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:09.908]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:09.911]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:33:09.912]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:09.953]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 01:33:09.954]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 01:33:09.954]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 01:33:10.128]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Adeesha.
+[2024-01-12 01:33:10.134]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of print printed : 194, Final Status of Printer{printerID='PrinterMachine 1120J', paper_level=206, toner_level=306, printedTickets=20}.
+[2024-01-12 07:59:28.240]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2024-01-12 07:59:28.273]  [PRINTING SYSTEM]  [INFO]   Passenger Thread Group Created.
+[2024-01-12 07:59:28.274]  [PRINTING SYSTEM]  [INFO]   Technician Thread Group Created.
+[2024-01-12 07:59:28.275]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2024-01-12 07:59:28.275]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERTharindu.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERSudesh.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERPasan.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERAdithya.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Initialised PAPERTECHNICIAN.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Initialised TONERTECHNICIAN.
+[2024-01-12 07:59:28.276]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2024-01-12 07:59:28.279]  [PRINTING SYSTEM]  [INFO]  Started Tharindu PASSENGER Thread.
+[2024-01-12 07:59:28.279]  [PRINTING SYSTEM]  [INFO]  Started Sudesh PASSENGER Thread.
+[2024-01-12 07:59:28.280]  [PRINTING SYSTEM]  [INFO]  Started Pasan PASSENGER Thread.
+[2024-01-12 07:59:28.281]  [PRINTING SYSTEM]  [INFO]  Started Adithya PASSENGER Thread.
+[2024-01-12 07:59:28.282]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2024-01-12 07:59:28.283]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2024-01-12 07:59:28.284]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:28.285]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 9].
+[2024-01-12 07:59:28.285]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:28.285]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 9].
+[2024-01-12 07:59:28.285]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 12].
+[2024-01-12 07:59:28.285]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 15].
+[2024-01-12 07:59:28.286]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 07:59:28.286]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 07:59:28.286]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 15].
+[2024-01-12 07:59:28.287]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 12].
+[2024-01-12 07:59:28.288]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 07:59:28.289]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.289]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 07:59:28.289]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.289]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 07:59:28.290]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 9].
+[2024-01-12 07:59:28.290]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=491, printedTickets=1}.
+[2024-01-12 07:59:28.290]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=491, printedTickets=1}.
+[2024-01-12 07:59:28.290]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=491, printedTickets=1}.
+[2024-01-12 07:59:28.291]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 07:59:28.291]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=474, printedTickets=2}.
+[2024-01-12 07:59:28.291]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=474, printedTickets=2}.
+[2024-01-12 07:59:28.291]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=474, printedTickets=2}.
+[2024-01-12 07:59:28.291]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 15].
+[2024-01-12 07:59:28.291]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=209, toner_level=459, printedTickets=3}.
+[2024-01-12 07:59:28.292]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=209, toner_level=459, printedTickets=3}.
+[2024-01-12 07:59:28.292]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=209, toner_level=459, printedTickets=3}.
+[2024-01-12 07:59:28.292]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 12].
+[2024-01-12 07:59:28.292]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.292]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.292]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 07:59:28.293]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.293]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.293]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.293]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.325]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:28.325]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.326]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.362]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 6].
+[2024-01-12 07:59:28.362]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 6].
+[2024-01-12 07:59:28.363]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=247, toner_level=447, printedTickets=4}.
+[2024-01-12 07:59:28.363]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 6].
+[2024-01-12 07:59:28.363]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=441, printedTickets=5}.
+[2024-01-12 07:59:28.363]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=441, printedTickets=5}.
+[2024-01-12 07:59:28.363]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=441, printedTickets=5}.
+[2024-01-12 07:59:28.363]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.364]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=441, printedTickets=5}.
+[2024-01-12 07:59:28.364]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.716]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 5].
+[2024-01-12 07:59:28.717]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 5].
+[2024-01-12 07:59:28.717]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=241, toner_level=441, printedTickets=5}.
+[2024-01-12 07:59:28.717]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 5].
+[2024-01-12 07:59:28.718]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=436, printedTickets=6}.
+[2024-01-12 07:59:28.718]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=436, printedTickets=6}.
+[2024-01-12 07:59:28.718]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=436, printedTickets=6}.
+[2024-01-12 07:59:28.718]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.718]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=436, printedTickets=6}.
+[2024-01-12 07:59:28.718]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.824]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:28.826]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:28.826]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=236, toner_level=436, printedTickets=6}.
+[2024-01-12 07:59:28.827]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:28.827]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=423, printedTickets=7}.
+[2024-01-12 07:59:28.827]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=423, printedTickets=7}.
+[2024-01-12 07:59:28.827]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=423, printedTickets=7}.
+[2024-01-12 07:59:28.827]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:28.827]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=423, printedTickets=7}.
+[2024-01-12 07:59:28.828]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.034]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:29.035]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:29.035]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=423, printedTickets=7}.
+[2024-01-12 07:59:29.035]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 13].
+[2024-01-12 07:59:29.036]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=410, printedTickets=8}.
+[2024-01-12 07:59:29.036]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=410, printedTickets=8}.
+[2024-01-12 07:59:29.036]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=410, printedTickets=8}.
+[2024-01-12 07:59:29.036]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.036]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=410, printedTickets=8}.
+[2024-01-12 07:59:29.036]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.134]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 12].
+[2024-01-12 07:59:29.134]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 12].
+[2024-01-12 07:59:29.135]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=410, printedTickets=8}.
+[2024-01-12 07:59:29.135]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 12].
+[2024-01-12 07:59:29.136]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.136]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.136]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=198, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.136]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.136]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 07:59:29.136]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.137]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.137]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.137]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.312]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 8].
+[2024-01-12 07:59:29.312]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 8].
+[2024-01-12 07:59:29.313]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=248, toner_level=398, printedTickets=9}.
+[2024-01-12 07:59:29.314]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 8].
+[2024-01-12 07:59:29.314]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=10}.
+[2024-01-12 07:59:29.314]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=10}.
+[2024-01-12 07:59:29.314]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=10}.
+[2024-01-12 07:59:29.314]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.501]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 16].
+[2024-01-12 07:59:29.503]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 16].
+[2024-01-12 07:59:29.504]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=240, toner_level=390, printedTickets=10}.
+[2024-01-12 07:59:29.504]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 16].
+[2024-01-12 07:59:29.505]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=374, printedTickets=11}.
+[2024-01-12 07:59:29.505]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=374, printedTickets=11}.
+[2024-01-12 07:59:29.505]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=374, printedTickets=11}.
+[2024-01-12 07:59:29.506]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.638]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 07:59:29.639]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 07:59:29.639]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=224, toner_level=374, printedTickets=11}.
+[2024-01-12 07:59:29.640]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 6].
+[2024-01-12 07:59:29.640]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=368, printedTickets=12}.
+[2024-01-12 07:59:29.640]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=368, printedTickets=12}.
+[2024-01-12 07:59:29.641]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=368, printedTickets=12}.
+[2024-01-12 07:59:29.641]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.651]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.652]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.652]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=218, toner_level=368, printedTickets=12}.
+[2024-01-12 07:59:29.652]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.652]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=204, toner_level=354, printedTickets=13}.
+[2024-01-12 07:59:29.652]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=204, toner_level=354, printedTickets=13}.
+[2024-01-12 07:59:29.653]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=204, toner_level=354, printedTickets=13}.
+[2024-01-12 07:59:29.653]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.693]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 16].
+[2024-01-12 07:59:29.694]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 16].
+[2024-01-12 07:59:29.694]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=204, toner_level=354, printedTickets=13}.
+[2024-01-12 07:59:29.694]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 16].
+[2024-01-12 07:59:29.694]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=14}.
+[2024-01-12 07:59:29.694]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=14}.
+[2024-01-12 07:59:29.695]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=14}.
+[2024-01-12 07:59:29.695]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:29.697]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.698]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.698]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=188, toner_level=338, printedTickets=14}.
+[2024-01-12 07:59:29.698]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 14].
+[2024-01-12 07:59:29.698]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=174, toner_level=324, printedTickets=15}.
+[2024-01-12 07:59:29.698]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=174, toner_level=324, printedTickets=15}.
+[2024-01-12 07:59:29.699]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=174, toner_level=324, printedTickets=15}.
+[2024-01-12 07:59:29.699]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.022]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 1].
+[2024-01-12 07:59:30.023]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 1].
+[2024-01-12 07:59:30.023]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=174, toner_level=324, printedTickets=15}.
+[2024-01-12 07:59:30.024]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 1].
+[2024-01-12 07:59:30.024]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=173, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.024]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=173, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.024]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=173, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.024]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.062]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:30.062]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 07:59:30.062]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.063]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.063]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.063]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.201]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 4].
+[2024-01-12 07:59:30.202]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 4].
+[2024-01-12 07:59:30.203]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=223, toner_level=323, printedTickets=16}.
+[2024-01-12 07:59:30.203]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 4].
+[2024-01-12 07:59:30.204]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=319, printedTickets=17}.
+[2024-01-12 07:59:30.204]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=319, printedTickets=17}.
+[2024-01-12 07:59:30.204]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=319, printedTickets=17}.
+[2024-01-12 07:59:30.205]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.259]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 16].
+[2024-01-12 07:59:30.260]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 16].
+[2024-01-12 07:59:30.260]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=319, printedTickets=17}.
+[2024-01-12 07:59:30.261]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 16].
+[2024-01-12 07:59:30.261]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=303, printedTickets=18}.
+[2024-01-12 07:59:30.261]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=303, printedTickets=18}.
+[2024-01-12 07:59:30.261]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=303, printedTickets=18}.
+[2024-01-12 07:59:30.261]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.420]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 12].
+[2024-01-12 07:59:30.421]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 12].
+[2024-01-12 07:59:30.422]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=203, toner_level=303, printedTickets=18}.
+[2024-01-12 07:59:30.422]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 12].
+[2024-01-12 07:59:30.422]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=291, printedTickets=19}.
+[2024-01-12 07:59:30.423]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=291, printedTickets=19}.
+[2024-01-12 07:59:30.423]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=291, printedTickets=19}.
+[2024-01-12 07:59:30.423]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:30.848]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 6].
+[2024-01-12 07:59:30.850]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 6].
+[2024-01-12 07:59:30.851]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=291, printedTickets=19}.
+[2024-01-12 07:59:30.851]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 6].
+[2024-01-12 07:59:30.851]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:30.851]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:30.851]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:30.852]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 07:59:31.695]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Tharindu.
+[2024-01-12 07:59:31.696]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Sudesh.
+[2024-01-12 07:59:31.697]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Pasan.
+[2024-01-12 07:59:31.697]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Adithya.
+[2024-01-12 07:59:31.697]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Malith.
+[2024-01-12 07:59:35.853]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 07:59:35.855]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:36.612]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:36.614]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 07:59:36.615]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:37.299]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 07:59:37.300]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 07:59:37.301]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 07:59:37.936]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Adeesha.
+[2024-01-12 07:59:37.941]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of print printed : 215, Final Status of Printer{printerID='PrinterMachine 1120J', paper_level=185, toner_level=285, printedTickets=20}.
+[2024-01-12 08:49:02.603]  [PRINTING SYSTEM]  [INFO]  Creating Thread Groups .
+[2024-01-12 08:49:02.636]  [PRINTING SYSTEM]  [INFO]   Passenger Thread Group Created.
+[2024-01-12 08:49:02.636]  [PRINTING SYSTEM]  [INFO]   Technician Thread Group Created.
+[2024-01-12 08:49:02.637]  [PRINTING SYSTEM]  [INFO]  Initialised PRINTER Resource.
+[2024-01-12 08:49:02.638]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERTharindu.
+[2024-01-12 08:49:02.638]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERSudesh.
+[2024-01-12 08:49:02.638]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERPasan.
+[2024-01-12 08:49:02.638]  [PRINTING SYSTEM]  [INFO]  Initialised PASSENGERAdithya.
+[2024-01-12 08:49:02.639]  [PRINTING SYSTEM]  [INFO]  Initialised PAPERTECHNICIAN.
+[2024-01-12 08:49:02.639]  [PRINTING SYSTEM]  [INFO]  Initialised TONERTECHNICIAN.
+[2024-01-12 08:49:02.639]  [PRINTING SYSTEM]  [INFO]  Starting all initalised Threads.
+[2024-01-12 08:49:02.641]  [PRINTING SYSTEM]  [INFO]  Started Tharindu PASSENGER Thread.
+[2024-01-12 08:49:02.641]  [PRINTING SYSTEM]  [INFO]  Started Sudesh PASSENGER Thread.
+[2024-01-12 08:49:02.642]  [PRINTING SYSTEM]  [INFO]  Started Pasan PASSENGER Thread.
+[2024-01-12 08:49:02.643]  [PRINTING SYSTEM]  [INFO]  Started Adithya PASSENGER Thread.
+[2024-01-12 08:49:02.643]  [PRINTING SYSTEM]  [INFO]  Started PAPER TECHNICIAN Thread.
+[2024-01-12 08:49:02.643]  [PRINTING SYSTEM]  [INFO]  Started TONER TECHNICIAN Thread.
+[2024-01-12 08:49:02.644]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:02.645]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:02.647]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 08:49:02.647]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 15].
+[2024-01-12 08:49:02.647]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 8].
+[2024-01-12 08:49:02.647]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 8].
+[2024-01-12 08:49:02.648]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 15].
+[2024-01-12 08:49:02.648]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 08:49:02.648]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 08:49:02.648]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 08:49:02.650]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 08:49:02.650]  [PRINTER]  [INFO]  Paper level has not reached the minimum level to be refilled. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:02.651]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 08:49:02.651]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:02.651]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=250, toner_level=500, printedTickets=0}.
+[2024-01-12 08:49:02.651]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_1, Prints: 8].
+[2024-01-12 08:49:02.651]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=492, printedTickets=1}.
+[2024-01-12 08:49:02.652]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=492, printedTickets=1}.
+[2024-01-12 08:49:02.652]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=492, printedTickets=1}.
+[2024-01-12 08:49:02.652]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_1, Prints: 15].
+[2024-01-12 08:49:02.652]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=227, toner_level=477, printedTickets=2}.
+[2024-01-12 08:49:02.652]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=227, toner_level=477, printedTickets=2}.
+[2024-01-12 08:49:02.653]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=227, toner_level=477, printedTickets=2}.
+[2024-01-12 08:49:02.653]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_1, Prints: 17].
+[2024-01-12 08:49:02.653]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=3}.
+[2024-01-12 08:49:02.654]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=3}.
+[2024-01-12 08:49:02.654]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=460, printedTickets=3}.
+[2024-01-12 08:49:02.654]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_1, Prints: 18].
+[2024-01-12 08:49:02.654]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=192, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.654]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=192, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.654]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 08:49:02.655]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.655]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.656]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.656]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:02.714]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 16].
+[2024-01-12 08:49:02.715]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 16].
+[2024-01-12 08:49:02.715]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=242, toner_level=442, printedTickets=4}.
+[2024-01-12 08:49:02.715]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_2, Prints: 16].
+[2024-01-12 08:49:02.715]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=426, printedTickets=5}.
+[2024-01-12 08:49:02.715]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=426, printedTickets=5}.
+[2024-01-12 08:49:02.716]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=426, printedTickets=5}.
+[2024-01-12 08:49:02.716]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:02.759]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:02.760]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:02.760]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=426, printedTickets=5}.
+[2024-01-12 08:49:02.760]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:02.760]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=419, printedTickets=6}.
+[2024-01-12 08:49:02.760]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=419, printedTickets=6}.
+[2024-01-12 08:49:02.761]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=419, printedTickets=6}.
+[2024-01-12 08:49:02.761]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:02.773]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 14].
+[2024-01-12 08:49:02.774]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 14].
+[2024-01-12 08:49:02.774]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=419, printedTickets=6}.
+[2024-01-12 08:49:02.774]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_2, Prints: 14].
+[2024-01-12 08:49:02.775]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=405, printedTickets=7}.
+[2024-01-12 08:49:02.775]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=405, printedTickets=7}.
+[2024-01-12 08:49:02.775]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=405, printedTickets=7}.
+[2024-01-12 08:49:02.775]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.214]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 14].
+[2024-01-12 08:49:03.215]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 14].
+[2024-01-12 08:49:03.215]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=205, toner_level=405, printedTickets=7}.
+[2024-01-12 08:49:03.216]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_3, Prints: 14].
+[2024-01-12 08:49:03.216]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=391, printedTickets=8}.
+[2024-01-12 08:49:03.216]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=391, printedTickets=8}.
+[2024-01-12 08:49:03.216]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=391, printedTickets=8}.
+[2024-01-12 08:49:03.217]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.262]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 12].
+[2024-01-12 08:49:03.262]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 12].
+[2024-01-12 08:49:03.263]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=191, toner_level=391, printedTickets=8}.
+[2024-01-12 08:49:03.263]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_3, Prints: 12].
+[2024-01-12 08:49:03.263]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=379, printedTickets=9}.
+[2024-01-12 08:49:03.263]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=379, printedTickets=9}.
+[2024-01-12 08:49:03.264]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=379, printedTickets=9}.
+[2024-01-12 08:49:03.264]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.278]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 3].
+[2024-01-12 08:49:03.278]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 3].
+[2024-01-12 08:49:03.278]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=379, printedTickets=9}.
+[2024-01-12 08:49:03.279]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_3, Prints: 3].
+[2024-01-12 08:49:03.279]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=176, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.279]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=176, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.279]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=176, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.279]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.562]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:03.563]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 08:49:03.564]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.564]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.565]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.565]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.610]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:03.610]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:03.611]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=226, toner_level=376, printedTickets=10}.
+[2024-01-12 08:49:03.611]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_2, Prints: 7].
+[2024-01-12 08:49:03.611]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=11}.
+[2024-01-12 08:49:03.612]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=11}.
+[2024-01-12 08:49:03.612]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=11}.
+[2024-01-12 08:49:03.612]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.632]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 2].
+[2024-01-12 08:49:03.633]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 2].
+[2024-01-12 08:49:03.633]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=219, toner_level=369, printedTickets=11}.
+[2024-01-12 08:49:03.633]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_3, Prints: 2].
+[2024-01-12 08:49:03.634]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=12}.
+[2024-01-12 08:49:03.634]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=12}.
+[2024-01-12 08:49:03.634]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=12}.
+[2024-01-12 08:49:03.635]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.636]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 2].
+[2024-01-12 08:49:03.637]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 2].
+[2024-01-12 08:49:03.637]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=217, toner_level=367, printedTickets=12}.
+[2024-01-12 08:49:03.637]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_4, Prints: 2].
+[2024-01-12 08:49:03.637]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=13}.
+[2024-01-12 08:49:03.638]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=13}.
+[2024-01-12 08:49:03.638]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=13}.
+[2024-01-12 08:49:03.638]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.880]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 5].
+[2024-01-12 08:49:03.881]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 5].
+[2024-01-12 08:49:03.881]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=365, printedTickets=13}.
+[2024-01-12 08:49:03.882]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_4, Prints: 5].
+[2024-01-12 08:49:03.882]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=360, printedTickets=14}.
+[2024-01-12 08:49:03.882]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=360, printedTickets=14}.
+[2024-01-12 08:49:03.882]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=360, printedTickets=14}.
+[2024-01-12 08:49:03.882]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.969]  [PASSENGER]  [INFO]  Sudesh generated Ticket to print: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 11].
+[2024-01-12 08:49:03.970]  [PASSENGER]  [INFO]  [Sudesh] has requested to print the ticket: Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 11].
+[2024-01-12 08:49:03.970]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=210, toner_level=360, printedTickets=14}.
+[2024-01-12 08:49:03.971]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Sudesh, Name: tick_id_5, Prints: 11].
+[2024-01-12 08:49:03.971]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=15}.
+[2024-01-12 08:49:03.971]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=15}.
+[2024-01-12 08:49:03.971]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=15}.
+[2024-01-12 08:49:03.971]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:03.980]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 13].
+[2024-01-12 08:49:03.980]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 13].
+[2024-01-12 08:49:03.980]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=199, toner_level=349, printedTickets=15}.
+[2024-01-12 08:49:03.980]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_4, Prints: 13].
+[2024-01-12 08:49:03.980]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=186, toner_level=336, printedTickets=16}.
+[2024-01-12 08:49:03.980]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=186, toner_level=336, printedTickets=16}.
+[2024-01-12 08:49:03.981]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=186, toner_level=336, printedTickets=16}.
+[2024-01-12 08:49:03.981]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:04.069]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 7].
+[2024-01-12 08:49:04.070]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 7].
+[2024-01-12 08:49:04.071]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=186, toner_level=336, printedTickets=16}.
+[2024-01-12 08:49:04.071]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_4, Prints: 7].
+[2024-01-12 08:49:04.071]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.071]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.072]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=179, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.072]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:04.132]  [PAPER TECHNICIAN]  [INFO]  [PAPER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:04.133]  [PRINTER]  [WARN]  Paper level has reduced below the specified Level.
+[2024-01-12 08:49:04.133]  [PRINTER]  [INFO]  Refilled with a pack of papers : Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.134]  [PAPER TECHNICIAN]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.134]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.134]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:04.136]  [PASSENGER]  [INFO]  Adithya generated Ticket to print: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 14].
+[2024-01-12 08:49:04.136]  [PASSENGER]  [INFO]  [Adithya] has requested to print the ticket: Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 14].
+[2024-01-12 08:49:04.137]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=229, toner_level=329, printedTickets=17}.
+[2024-01-12 08:49:04.137]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Adithya, Name: tick_id_5, Prints: 14].
+[2024-01-12 08:49:04.137]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=315, printedTickets=18}.
+[2024-01-12 08:49:04.137]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=315, printedTickets=18}.
+[2024-01-12 08:49:04.137]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=315, printedTickets=18}.
+[2024-01-12 08:49:04.138]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:04.375]  [PASSENGER]  [INFO]  Tharindu generated Ticket to print: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 18].
+[2024-01-12 08:49:04.376]  [PASSENGER]  [INFO]  [Tharindu] has requested to print the ticket: Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 18].
+[2024-01-12 08:49:04.376]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=215, toner_level=315, printedTickets=18}.
+[2024-01-12 08:49:04.376]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Tharindu, Name: tick_id_5, Prints: 18].
+[2024-01-12 08:49:04.377]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=297, printedTickets=19}.
+[2024-01-12 08:49:04.377]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=297, printedTickets=19}.
+[2024-01-12 08:49:04.377]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=297, printedTickets=19}.
+[2024-01-12 08:49:04.377]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:04.654]  [PASSENGER]  [INFO]  Pasan generated Ticket to print: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 08:49:04.654]  [PASSENGER]  [INFO]  [Pasan] has requested to print the ticket: Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 08:49:04.655]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=197, toner_level=297, printedTickets=19}.
+[2024-01-12 08:49:04.656]  [PRINTER]  [INFO]  Printed Document : Ticket[ UserID: Pasan, Name: tick_id_5, Prints: 7].
+[2024-01-12 08:49:04.656]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:04.657]  [PASSENGER]  [INFO]  Printer current status: Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:04.657]  [PRINTER]  [INFO]  Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:04.657]  [PRINTER]  [INFO]  Toner has not reached minimum level. Waiting to check again in 5 seconds.
+[2024-01-12 08:49:05.011]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Tharindu.
+[2024-01-12 08:49:05.012]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Sudesh.
+[2024-01-12 08:49:05.013]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Pasan.
+[2024-01-12 08:49:05.014]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Adithya.
+[2024-01-12 08:49:05.014]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Paper Technician Malith.
+[2024-01-12 08:49:09.663]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 08:49:09.664]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:10.118]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:10.119]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 08:49:10.120]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:10.538]  [TONER TECHNICIAN]  [INFO]  [TONER TECHNICIAN] has requested to use the printer.
+[2024-01-12 08:49:10.540]  [PRINTER]  [INFO]  Usage of the Printer has been concluded, no need to replace TONER.
+[2024-01-12 08:49:10.540]  [TONER TECHNICIAN]  [INFO]  Printer status: Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
+[2024-01-12 08:49:11.459]  [PRINTING SYSTEM]  [INFO]  EXECUTION completed by : Toner Technician Adeesha.
+[2024-01-12 08:49:11.472]  [PRINTING SYSTEM]  [INFO]  All Tasks successfully Completed ,Total Number of print printed : 210, Final Status of Printer{printerID='PrinterMachine 1120J', paper_level=190, toner_level=290, printedTickets=20}.
